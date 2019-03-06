@@ -1,0 +1,79 @@
+
+
+--------------Purpose of this document-------------------
+
+
+
+Please use these instruction after you clone this project from Git to rename with "basicsetup" name
+
+
+
+Note : PLEASE cd TO A NON-GIT REPOSITORY BEFORE PROCEEDING ⚠️
+
+
+
+Step 1 - Prerequisites
+
+Copy your original project folder to a temporary /NewProjectFolder OUTSIDE your git repository. ⚠️ changes to .git could corrupt your git index 💥 ☠
+
+
+
+Step 2 - Open Terminal
+
+Now we're going to rename the project from oldName to NewProject.
+
+
+Close XCode.
+
+Go to your /NewProjectFolder.
+
+cd /Path/to/your/NewProjectFolder
+
+
+
+Step 3 - Install homebrew
+
+using terminal from  link
+
+
+
+Install the extra tools needed and run following commands in terminal
+
+brew install rename ack
+
+
+
+Note : Rename the files and directories containing the source string. You’ll need to RUN THIS COMMAND TWICE, because directories will be renamed first, then files and directories inside those will be renamed on the next iteration.
+
+
+
+find . -name 'oldName*' -print0 | xargs -0 rename --subst-all 'oldName' 'NewProject'
+
+
+
+Check if all the files containing the source string are renamed. You should see empty output.
+
+find . -name 'oldName*'
+
+
+
+Replace all occurrences of the string in all files.
+
+ack --literal --files-with-matches 'oldName' --print0 | xargs -0 sed -i '' 's/oldName/NewProject/g'
+
+
+
+Check if all occurrences of the string in all files were replaced. You should see empty output.
+
+ack --literal 'oldName'
+
+
+
+Run pod install
+
+Add NewProjectFolder to your repository.
+
+You are done!
+
+Thanks,
+Amit Dhadse

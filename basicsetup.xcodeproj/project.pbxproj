@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB7441648DC7AC0D9D9111AA /* Pods_basicsetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD31D028249322586499CA7 /* Pods_basicsetup.framework */; };
+		D705333F222FC44F008C1BD9 /* ReadmeDocument in Resources */ = {isa = PBXBuildFile; fileRef = D705333E222FC44F008C1BD9 /* ReadmeDocument */; };
 		D710A54A21F5A1E100C51EB2 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = D710A54921F5A1E100C51EB2 /* Configurations.plist */; };
 		D710A54C21F5A20200C51EB2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A54B21F5A20200C51EB2 /* Configuration.swift */; };
 		D710A55421F5A4F400C51EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55321F5A4F400C51EB2 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		3D3347C286EE23ED218FE935 /* Pods-basicsetup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicsetup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basicsetup/Pods-basicsetup.debug.xcconfig"; sourceTree = "<group>"; };
 		7F8ACA482569CE90454C9BEB /* Pods-basicsetup.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicsetup.uat.xcconfig"; path = "Pods/Target Support Files/Pods-basicsetup/Pods-basicsetup.uat.xcconfig"; sourceTree = "<group>"; };
 		A6F8EC889D2929EB6DE522B6 /* Pods-basicsetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basicsetup.release.xcconfig"; path = "Pods/Target Support Files/Pods-basicsetup/Pods-basicsetup.release.xcconfig"; sourceTree = "<group>"; };
+		D705333E222FC44F008C1BD9 /* ReadmeDocument */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadmeDocument; sourceTree = "<group>"; };
 		D710A54921F5A1E100C51EB2 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		D710A54B21F5A20200C51EB2 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		D710A55321F5A4F400C51EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 				DCD31D028249322586499CA7 /* Pods_basicsetup.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D705333D222FC429008C1BD9 /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				D705333E222FC44F008C1BD9 /* ReadmeDocument */,
+			);
+			path = ReadMe;
 			sourceTree = "<group>";
 		};
 		D710A55B21F8396200C51EB2 /* Constant */ = {
@@ -144,6 +154,7 @@
 		D7ED85D321E5E09900B407C4 = {
 			isa = PBXGroup;
 			children = (
+				D705333D222FC429008C1BD9 /* ReadMe */,
 				D7ED85DE21E5E09900B407C4 /* basicsetup */,
 				D7ED85DD21E5E09900B407C4 /* Products */,
 				5EFC28D7DBB7B79EB9AEB65B /* Pods */,
@@ -240,6 +251,7 @@
 				D710A54A21F5A1E100C51EB2 /* Configurations.plist in Resources */,
 				D7ED85E721E5E09B00B407C4 /* Assets.xcassets in Resources */,
 				D7ED85E521E5E09900B407C4 /* Main.storyboard in Resources */,
+				D705333F222FC44F008C1BD9 /* ReadmeDocument in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
