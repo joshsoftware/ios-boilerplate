@@ -12,10 +12,14 @@
 		D710A54A21F5A1E100C51EB2 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = D710A54921F5A1E100C51EB2 /* Configurations.plist */; };
 		D710A54C21F5A20200C51EB2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A54B21F5A20200C51EB2 /* Configuration.swift */; };
 		D710A55421F5A4F400C51EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55321F5A4F400C51EB2 /* ViewController.swift */; };
-		D710A55621F6E96A00C51EB2 /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55521F6E96A00C51EB2 /* ModelClass.swift */; };
+		D710A55621F6E96A00C51EB2 /* dailyVitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55521F6E96A00C51EB2 /* dailyVitals.swift */; };
 		D710A55821F8373800C51EB2 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55721F8373700C51EB2 /* ServerManager.swift */; };
 		D710A55A21F8379400C51EB2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55921F8379400C51EB2 /* DataManager.swift */; };
 		D710A55D21F8397500C51EB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55C21F8397500C51EB2 /* Constants.swift */; };
+		D715FDB9225C893900EBABDB /* ProjectUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDB8225C893900EBABDB /* ProjectUtility.swift */; };
+		D715FDBB225CA28C00EBABDB /* DailyVitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */; };
+		D715FDBD225CA37E00EBABDB /* DailyVitalResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */; };
+		D7C9BAD3225CCD0900A01012 /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */; };
 		D7ED85E021E5E09900B407C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED85DF21E5E09900B407C4 /* AppDelegate.swift */; };
 		D7ED85E521E5E09900B407C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED85E321E5E09900B407C4 /* Main.storyboard */; };
 		D7ED85E721E5E09B00B407C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED85E621E5E09B00B407C4 /* Assets.xcassets */; };
@@ -31,10 +35,14 @@
 		D710A54921F5A1E100C51EB2 /* Configurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configurations.plist; sourceTree = "<group>"; };
 		D710A54B21F5A20200C51EB2 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		D710A55321F5A4F400C51EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D710A55521F6E96A00C51EB2 /* ModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
+		D710A55521F6E96A00C51EB2 /* dailyVitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyVitals.swift; sourceTree = "<group>"; };
 		D710A55721F8373700C51EB2 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		D710A55921F8379400C51EB2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		D710A55C21F8397500C51EB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D715FDB8225C893900EBABDB /* ProjectUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUtility.swift; sourceTree = "<group>"; };
+		D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVitalData.swift; sourceTree = "<group>"; };
+		D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVitalResponce.swift; sourceTree = "<group>"; };
+		D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
 		D7ED85DC21E5E09900B407C4 /* basicsetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basicsetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED85DF21E5E09900B407C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ED85E421E5E09900B407C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,7 +104,9 @@
 		D71E845321F0701100329876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D710A55521F6E96A00C51EB2 /* ModelClass.swift */,
+				D710A55521F6E96A00C51EB2 /* dailyVitals.swift */,
+				D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */,
+				D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,8 +157,17 @@
 		D71E845921F070E200329876 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D715FDB8225C893900EBABDB /* ProjectUtility.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7C9BACF225CC84A00A01012 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */,
+			);
+			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 		D7ED85D321E5E09900B407C4 = {
@@ -173,6 +192,7 @@
 		D7ED85DE21E5E09900B407C4 /* basicsetup */ = {
 			isa = PBXGroup;
 			children = (
+				D7C9BACF225CC84A00A01012 /* ThirdParty */,
 				D71E845621F0703E00329876 /* Common */,
 				D71E845521F0702100329876 /* Controller */,
 				D71E845421F0701B00329876 /* View */,
@@ -313,10 +333,14 @@
 			files = (
 				D710A55821F8373800C51EB2 /* ServerManager.swift in Sources */,
 				D710A55A21F8379400C51EB2 /* DataManager.swift in Sources */,
+				D715FDBB225CA28C00EBABDB /* DailyVitalData.swift in Sources */,
+				D715FDB9225C893900EBABDB /* ProjectUtility.swift in Sources */,
 				D710A55421F5A4F400C51EB2 /* ViewController.swift in Sources */,
+				D715FDBD225CA37E00EBABDB /* DailyVitalResponce.swift in Sources */,
 				D710A54C21F5A20200C51EB2 /* Configuration.swift in Sources */,
 				D710A55D21F8397500C51EB2 /* Constants.swift in Sources */,
-				D710A55621F6E96A00C51EB2 /* ModelClass.swift in Sources */,
+				D7C9BAD3225CCD0900A01012 /* AJProgressView.swift in Sources */,
+				D710A55621F6E96A00C51EB2 /* dailyVitals.swift in Sources */,
 				D7ED85E021E5E09900B407C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

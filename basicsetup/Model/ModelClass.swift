@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ModelClass: Codable {
+class dailyVital: Codable {
 
     let blood_pressure      : String?
     let blood_pressure_max  : String?

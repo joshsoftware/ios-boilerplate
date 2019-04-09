@@ -7,7 +7,7 @@
 		<key>isDebugingEnable</key>
 		<true/>
 		<key>baseURL</key>
-		<string>http://103.93.44.141/1919/DEV</string>
+		<string>https://stage.freedomfromdiabetes.org/api</string>
 	</dict>
 	<key>PROD</key>
 	<dict>
