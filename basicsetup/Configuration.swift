@@ -8,39 +8,38 @@
 
 import UIKit
 
-class Configuration: NSObject{
+class Configuration: NSObject {
+    var configuration: String?
+    var variables: NSDictionary?
+    var apiBaseURL: String?
+    var isDebugEnable: Bool = false
 
-    var configuration   : String?
-    var variables       : NSDictionary?
-    var apiBaseURL      : String?
-    var isDebugEnable  : Bool = false
-    
     static let sharedConfiguration = Configuration()
-    
-    func initialize(){
-        //Fetch current configuration
+
+    func initialize() {
+        // Fetch current configuration
         let configureKeyValue = Bundle.main.infoDictionary
-        self.configuration = configureKeyValue!["Configuration"] as? String
-        
-        //Load configurations
+        configuration = configureKeyValue!["Configuration"] as? String
+
+        // Load configurations
         let path = Bundle.main.path(forResource: "Configurations", ofType: "plist")
         let configurations = NSDictionary(contentsOf: URL(fileURLWithPath: path!))
-        
-        //Load variables for current configuration
-        self.variables = configurations?[self.configuration ?? ""] as? NSDictionary
-        
-        self.apiBaseURL = self.APIBaseURL()
-        self.isDebugEnable = self.isDebugingEnable()
+
+        // Load variables for current configuration
+        variables = configurations?[configuration ?? ""] as? NSDictionary
+
+        apiBaseURL = APIBaseURL()
+        isDebugEnable = isDebugingEnable()
     }
-    
-    func APIBaseURL() -> String{
-        if Configuration.sharedConfiguration.variables != nil{
+
+    func APIBaseURL() -> String {
+        if Configuration.sharedConfiguration.variables != nil {
             return Configuration.sharedConfiguration.variables?.object(forKey: "baseURL") as! String
         }
         return ""
     }
-    
-    func isDebugingEnable() -> Bool{
+
+    func isDebugingEnable() -> Bool {
         return Configuration.sharedConfiguration.variables?.object(forKey: "isDebugingEnable") as! Bool
     }
 }

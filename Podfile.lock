@@ -1,20 +1,16 @@
 PODS:
-  - Alamofire (4.8.0)
-  - SKToast (0.1.0)
+  - Alamofire (5.4.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
-  - SKToast (~> 0.1.0)
+  - Alamofire
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
-    - SKToast
 
 SPEC CHECKSUMS:
-  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
-  SKToast: f3c0b041c69db7e826f41d62dbf6df5f4cba3f21
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
 
-PODFILE CHECKSUM: 5cce301cf56451a3982998fe4aa60c3d44b2b27f
+PODFILE CHECKSUM: 11d261bb3d9728e802d15420d487906f92c309bc
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1

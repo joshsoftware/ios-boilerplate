@@ -3,23 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4284EAE25B6EF0300865913 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55921F8379400C51EB2 /* ApiClient.swift */; };
 		BB7441648DC7AC0D9D9111AA /* Pods_basicsetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD31D028249322586499CA7 /* Pods_basicsetup.framework */; };
 		D705333F222FC44F008C1BD9 /* ReadmeDocument in Resources */ = {isa = PBXBuildFile; fileRef = D705333E222FC44F008C1BD9 /* ReadmeDocument */; };
 		D710A54A21F5A1E100C51EB2 /* Configurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = D710A54921F5A1E100C51EB2 /* Configurations.plist */; };
 		D710A54C21F5A20200C51EB2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A54B21F5A20200C51EB2 /* Configuration.swift */; };
 		D710A55421F5A4F400C51EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55321F5A4F400C51EB2 /* ViewController.swift */; };
 		D710A55621F6E96A00C51EB2 /* dailyVitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55521F6E96A00C51EB2 /* dailyVitals.swift */; };
-		D710A55821F8373800C51EB2 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55721F8373700C51EB2 /* ServerManager.swift */; };
-		D710A55A21F8379400C51EB2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55921F8379400C51EB2 /* DataManager.swift */; };
+		D710A55821F8373800C51EB2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55721F8373700C51EB2 /* Services.swift */; };
 		D710A55D21F8397500C51EB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D710A55C21F8397500C51EB2 /* Constants.swift */; };
-		D715FDB9225C893900EBABDB /* ProjectUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDB8225C893900EBABDB /* ProjectUtility.swift */; };
+		D715FDB9225C893900EBABDB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDB8225C893900EBABDB /* UIViewController+Extension.swift */; };
 		D715FDBB225CA28C00EBABDB /* DailyVitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */; };
-		D715FDBD225CA37E00EBABDB /* DailyVitalResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */; };
-		D7C9BAD3225CCD0900A01012 /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */; };
+		D715FDBD225CA37E00EBABDB /* DailyVitalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715FDBC225CA37E00EBABDB /* DailyVitalResponse.swift */; };
 		D7ED85E021E5E09900B407C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED85DF21E5E09900B407C4 /* AppDelegate.swift */; };
 		D7ED85E521E5E09900B407C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ED85E321E5E09900B407C4 /* Main.storyboard */; };
 		D7ED85E721E5E09B00B407C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ED85E621E5E09B00B407C4 /* Assets.xcassets */; };
@@ -36,13 +35,12 @@
 		D710A54B21F5A20200C51EB2 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		D710A55321F5A4F400C51EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D710A55521F6E96A00C51EB2 /* dailyVitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyVitals.swift; sourceTree = "<group>"; };
-		D710A55721F8373700C51EB2 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
-		D710A55921F8379400C51EB2 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D710A55721F8373700C51EB2 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D710A55921F8379400C51EB2 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		D710A55C21F8397500C51EB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D715FDB8225C893900EBABDB /* ProjectUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUtility.swift; sourceTree = "<group>"; };
+		D715FDB8225C893900EBABDB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVitalData.swift; sourceTree = "<group>"; };
-		D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVitalResponce.swift; sourceTree = "<group>"; };
-		D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
+		D715FDBC225CA37E00EBABDB /* DailyVitalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyVitalResponse.swift; sourceTree = "<group>"; };
 		D7ED85DC21E5E09900B407C4 /* basicsetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basicsetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ED85DF21E5E09900B407C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7ED85E421E5E09900B407C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,16 +104,9 @@
 			children = (
 				D710A55521F6E96A00C51EB2 /* dailyVitals.swift */,
 				D715FDBA225CA28C00EBABDB /* DailyVitalData.swift */,
-				D715FDBC225CA37E00EBABDB /* DailyVitalResponce.swift */,
+				D715FDBC225CA37E00EBABDB /* DailyVitalResponse.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		D71E845421F0701B00329876 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		D71E845521F0702100329876 /* Controller */ = {
@@ -132,7 +123,7 @@
 				D710A55B21F8396200C51EB2 /* Constant */,
 				D71E845721F0709B00329876 /* AppDelegate */,
 				D71E845921F070E200329876 /* Extensions */,
-				D71E845821F070A800329876 /* ServerManger */,
+				D71E845821F070A800329876 /* NetworkManager */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -145,29 +136,21 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		D71E845821F070A800329876 /* ServerManger */ = {
+		D71E845821F070A800329876 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				D710A55721F8373700C51EB2 /* ServerManager.swift */,
-				D710A55921F8379400C51EB2 /* DataManager.swift */,
+				D710A55721F8373700C51EB2 /* Services.swift */,
+				D710A55921F8379400C51EB2 /* ApiClient.swift */,
 			);
-			path = ServerManger;
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 		D71E845921F070E200329876 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D715FDB8225C893900EBABDB /* ProjectUtility.swift */,
+				D715FDB8225C893900EBABDB /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		D7C9BACF225CC84A00A01012 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				D7C9BAD2225CCD0800A01012 /* AJProgressView.swift */,
-			);
-			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 		D7ED85D321E5E09900B407C4 = {
@@ -192,10 +175,8 @@
 		D7ED85DE21E5E09900B407C4 /* basicsetup */ = {
 			isa = PBXGroup;
 			children = (
-				D7C9BACF225CC84A00A01012 /* ThirdParty */,
 				D71E845621F0703E00329876 /* Common */,
 				D71E845521F0702100329876 /* Controller */,
-				D71E845421F0701B00329876 /* View */,
 				D71E845321F0701100329876 /* Model */,
 				D7ED85E321E5E09900B407C4 /* Main.storyboard */,
 				D710A54B21F5A20200C51EB2 /* Configuration.swift */,
@@ -306,22 +287,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-basicsetup/Pods-basicsetup-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SKToast/SKToast.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-basicsetup/Pods-basicsetup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKToast.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-basicsetup/Pods-basicsetup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basicsetup/Pods-basicsetup-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-basicsetup/Pods-basicsetup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -331,15 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D710A55821F8373800C51EB2 /* ServerManager.swift in Sources */,
-				D710A55A21F8379400C51EB2 /* DataManager.swift in Sources */,
+				B4284EAE25B6EF0300865913 /* ApiClient.swift in Sources */,
+				D710A55821F8373800C51EB2 /* Services.swift in Sources */,
 				D715FDBB225CA28C00EBABDB /* DailyVitalData.swift in Sources */,
-				D715FDB9225C893900EBABDB /* ProjectUtility.swift in Sources */,
+				D715FDB9225C893900EBABDB /* UIViewController+Extension.swift in Sources */,
 				D710A55421F5A4F400C51EB2 /* ViewController.swift in Sources */,
-				D715FDBD225CA37E00EBABDB /* DailyVitalResponce.swift in Sources */,
+				D715FDBD225CA37E00EBABDB /* DailyVitalResponse.swift in Sources */,
 				D710A54C21F5A20200C51EB2 /* Configuration.swift in Sources */,
 				D710A55D21F8397500C51EB2 /* Constants.swift in Sources */,
-				D7C9BAD3225CCD0900A01012 /* AJProgressView.swift in Sources */,
 				D710A55621F6E96A00C51EB2 /* dailyVitals.swift in Sources */,
 				D7ED85E021E5E09900B407C4 /* AppDelegate.swift in Sources */,
 			);
@@ -442,7 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Amit-Dhadse.basicsetup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = DEV;
@@ -516,7 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Amit-Dhadse.basicsetup";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = PROD;

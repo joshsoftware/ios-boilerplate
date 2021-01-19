@@ -8,15 +8,12 @@
 
 import Foundation
 
-struct DailyVitalData: Codable{
-    
-    var dailyVitals      : [dailyVitals]?
-    
-    //comment : You can use you coding case style even if key from json support other style
-    //comment : E.g Here I am using camel case style even though server json is in snake case. That's use of "CodingKey" class
-    private enum CodingKeys: String, CodingKey {
-        case dailyVitals = "daily_vitals"
-    }
-    
-}
+struct DailyVitalData: Codable {
+	var data: String?
 
+    // comment : You can use you coding case style even if key from json support other style
+    // comment : E.g Here I am using camel case style even though server json is in snake case. That's use of "CodingKey" class
+    private enum CodingKeys: String, CodingKey {
+        case data
+    }
+}
